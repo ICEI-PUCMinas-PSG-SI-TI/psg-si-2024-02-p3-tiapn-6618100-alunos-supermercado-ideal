@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+# Trabalho Supermercado Ideal
 
-`CURSO`
+`Sistemas de Informação`
 
-`DISCIPLINA`
+`Trabalho Interdisciplinar: Aplicações para Processos de Negócios`
 
-`SEMESTRE`
+`2024/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este trabalho apresenta uma série de aprimoramentos para o supermercado Ideal, visando otimizar suas operações por meio de aplicações tecnológicas integradas. As melhorias abrangem todo o fluxo de trabalho, começando pelo controle de compras, passando pela gestão de estoque até alcançar o caixa. O objetivo é aumentar a eficiência operacional e proporcionar uma melhor experiência para os clientes, otimizando a velocidade de atendimento e o controle de mercadorias. Os resultados preliminares indicam uma redução significativa de perdas e um aumento na precisão do gerenciamento de produtos em todas as etapas.
 
 ## Integrantes
-
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+Felipe Antonio Sousa Gomes, Guilherme Morais Custodio, João Vitor Pereira Soares Leles,  Luís Otávio de Paula e Samuel Valadão Pereira.
+* Felipe Antonio Sousa Gomes
+* Samuel Valadão Pereira
+* João Vitor Pereira Soares Leles
+* Luís Otávio de Paula
 
 ## Orientador
 
-* Nome completo do professor 1
+* Michelle Hanne Soares de Andrade
 
 ## Instruções de utilização
 
