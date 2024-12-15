@@ -1,46 +1,48 @@
-# Introdução
+## 1. Introdução
+O presente trabalho aborda o desenvolvimento de um sistema para supermercados, focado na automação e otimização de atividades essenciais, como controle de estoque, gestão de compras, atendimento de caixa e gerenciamento de filas no setor de açougue. Segundo pesquisas da Associação Brasileira de Supermercados (ABRAS), o setor supermercadista em 2023 obteve R$ 1.001,3 trilhão em faturamento, este resultado representa 9,02% do Produto Interno Bruto (PIB) nacional, o que torna a implementação de soluções tecnológicas fundamentais para a competitividade.
+Este projeto, poderá ser útil para reduzir erros humanos, otimizar processos e aumentar a lucratividade. Nesse sentido, sistemas que automatizam o controle de estoque e agilizam o atendimento ao cliente, tem papel fundamental para melhorar a experiência do cliente.
+O problema que o projeto visa resolver é a falta de eficiência em algumas operações essenciais dentro de um supermercado, como o monitoramento do estoque, a gestão das compras e o atendimento ao cliente nos caixas. Muitas vezes, esses processos são realizados de forma manual ou com sistemas desatualizados, o que resulta em falhas como falta de produtos, filas longas e insatisfação do consumidor. A motivação para este projeto está na oportunidade de desenvolver uma solução tecnológica que possa oferecer mais controle, economia e eficiência para os supermercados, melhorando tanto a gestão interna quanto a experiência do cliente.
+O grupo escolheu este tema por entender a relevância do contexto de negócio dos supermercados no cenário atual e o impacto positivo que a automação de processos pode gerar nesse setor. A partir de pesquisas e análises de sistemas já existentes, a equipe buscará desenvolver uma plataforma funcional, que atenda às necessidades operacionais de um supermercado, especialmente nas áreas de estoque, compras e atendimento.
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+## 1.1. Objetivos geral e específicos
+O objetivo do trabalho é identificar e modelar os principais processos de negócios de um supermercado. Os negócios que serão citados serão controle de compras, no qual será destacado o monitoramento das compras feitas pelo supermercado dos produtos que serão vendidos no mesmo. Além disso, será mencionada a inspeção do estoque, onde será controlado a quantidade de itens que estarão no estoque do supermercado para venda. Também será destacado o processo do caixa, no qual os produtos, a quantidade e os preços serão registrados e somados num preço total. E por fim, o pagamento que é sub processo do atendimento do caixa. Este processo será o responsável pela gestão das formas de pagamento.
 
-## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+## 1.2. Justificativas
+O Supermercado Ideal, sendo um estabelecimento de pequeno porte, enfrenta o desafio de se destacar em um mercado altamente competitivo, onde grandes redes de supermercados dominam. A implementação de um sistema que gerencie os principais processos de negócios é essencial para melhorar a eficiência operacional e proporcionar um atendimento de qualidade, fatores que podem diferenciar o Supermercado Ideal da concorrência.
+Com a modelagem dos processos de controle de compras, inspeção de estoque e operações de caixa, o supermercado pode otimizar suas atividades, evitando desperdícios, prevenindo rupturas de estoque e garantindo uma experiência de compra mais ágil e eficiente para seus clientes. A automatização e o controle desses processos são especialmente importantes em um pequeno supermercado, onde o impacto de erros, como falhas no registro de produtos ou no controle de estoque, pode ser ainda mais significativo em termos de prejuízos financeiros.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+## Stakeholders
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+**Gerente de Supermercado**
+Perfil: Profissional responsável pela gestão geral da loja, incluindo todas as operações do supermercado.
+Funções: Acompanhamento e controle de estoque para evitar rupturas ou excessos.
+Aprovação de compras de novos produtos junto aos fornecedores.
+Análise de relatórios de desempenho, como vendas e movimentação de produtos.
 
-## Objetivos
+**Funcionário do Estoque**
+Perfil: Profissional responsável pela entrada, organização e movimentação de mercadorias no depósito do supermercado.
+Funções: Recebimento e conferência de mercadorias, comparando o que foi entregue com o pedido de compra.
+Registro de entrada de produtos no sistema de controle de estoque.
+Geração de relatórios de produtos em baixa no estoque para solicitação de reposição.
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+**Operador de Caixa**
+Perfil: Responsável pelo atendimento direto ao cliente no momento da finalização da compra.
+Funções: Registro das compras dos clientes no sistema.
+Emissão de cupons fiscais e notas fiscais eletrônicas.
+Gestão de troco e finalização de pagamentos, que podem incluir dinheiro, cartões ou outros meios de pagamento.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+**Equipe de Compras**
+Perfil: Profissionais encarregados de gerenciar a aquisição de mercadorias para manter o abastecimento do supermercado.
+Funções: Definição de fornecedores e negociação de preços e prazos de entrega.
+Geração e acompanhamento de pedidos de compra, utilizando informações de necessidade de estoque.
+Análise do histórico de vendas e tendências de consumo para ajustar a quantidade de compras.
 
-## Justificativa
+**Cliente**
+Perfil: Consumidor que utiliza os serviços do supermercado para adquirir produtos e serviços, e que influencia diretamente nas operações e decisões de negócios.
+Funções: Realização de compras. Interação com o sistema durante o gerenciamento de fila no açougue.Feedback sobre a experiência de compra, qualidade do atendimento e produtos.
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
-## Público-Alvo
-
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+**Fornecedor**
+Perfil: Empresas ou produtores que fornecem produtos ao supermercado para revenda ao consumidor final.
+Funções: Oferta de produtos e envio de catálogos e cotações ao setor de compras do supermercado.
+Atendimento aos pedidos feitos pela equipe de compras, respeitando prazos e quantidades.
