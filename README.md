@@ -21,7 +21,7 @@ Felipe Antonio Sousa Gomes, Guilherme Morais Custodio, João Vitor Pereira Soare
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Trabalho não ficou totalmente completo. Abas do Windows form estão feitas separadamente
 
 # Documentação
 
@@ -35,22 +35,3 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/7-Conclusão.md"> Conclusão</a></li>
 <li><a href="docs/8-Referências.md"> Referências</a></li>
 </ol>
-
-# Código
-
-<li><a href="src/README.md"> Código Fonte</a></li>
-
-# Apresentação
-
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
-
-
-## Histórico de versões
-
-* 0.1.1
-    * CHANGE: Atualização das documentações. Código permaneceu inalterado.
-* 0.1.0
-    * Implementação da funcionalidade X pertencente ao processo P.
-* 0.0.1
-    * Trabalhando na modelagem do processo de negócio.
-
