@@ -27,11 +27,7 @@ Trabalho não ficou totalmente completo. Abas do Windows form estão feitas sepa
 
 <ol>
 <li><a href="docs/1-Contexto.md"> Documentação de Contexto</a></li>
-<li><a href="docs/2-Especificação.md"> Especificação do Projeto</a></li>
+<li><a href="https://www.canva.com/design/DAGQpwnT5QE/-fBF8HYkWSbsT8hbrDkU1g/view?utm_content=DAGQpwnT5QE&utm_campaign=designshare&utm_medium=link&utm_source=recording_view"> Video</a></li>
 <li><a href="docs/3-Modelagem-Processos-Negócio.md"> Modelagem dos Processos de Negocio</a></li>
-<li><a href="docs/4-Projeto-Solucao.md"> Projeto da solução</a></li>
-<li><a href="docs/5-Gerenciamento-Projeto.md"> Gerenciamento do Projeto</a></li>
-<li><a href="docs/6-Interface-Sistema.md"> Interface do Sistema</a></li>
-<li><a href="docs/7-Conclusão.md"> Conclusão</a></li>
-<li><a href="docs/8-Referências.md"> Referências</a></li>
+<li><a href="docs/BancoDeDados.md"> Banco de Dados</a></li>
 </ol>
